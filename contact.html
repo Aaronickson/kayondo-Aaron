@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - kayondo Aaron</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .social-media {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      justify-content: flex-start;
+      align-items: flex-start;
+      
+    }
+    .navbar {
+      background-color: #007BFF; 
+    }
+    .nav-link.active {
+      background-color: #ffffff;
+      color: #4CAF50 !important; 
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 8px 15px;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: #fff !important;
+    }
+    .nav-link:hover {
+      color: #000 !important;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+
+    .nav-link {
+      color: #fff !important;
+      font-size: 1.1rem;
+    }
+
+    .social-icon {
+      text-align: center;
+      width: 100px;
+      flex: 1;
+    }
+
+    .social-icon img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .social-icon img:hover {
+      transform: scale(1.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    body {
+      background-color: rgba(0, 255, 255, 0.815);
+    }
+
+    footer {
+      background-color: #4CAF50;
+      color: #fff;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" href="#">kayondo Aaron</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Contact Me</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label"><b>Full Name:</b></label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label"><b>Email Address:</b></label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="mb-3">
+        <label for="number" class="form-label"><b>Phone Number:</b></label>
+        <input type="tel" class="form-control" id="number" placeholder="Enter your phone number" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label"><b>Leave a Message</b></label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Write your message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark w-100">Submit</button>
+    </form>
+
+   
+    <div class="social-media mt-5">
+      <div class="social-icon">
+        <a href="https://facebook.com/yourprofile" target="_blank">
+          <img src="facebook.png" alt="Facebook">
+        </a>
+        <p>@aaronickson jovic</p>
+      </div>
+      <div class="social-icon">
+        <a href="https://twitter.com/yourprofile" target="_blank">
+          <img src="x.png" alt="Twitter">
+        </a>
+        <p>@mukisa aaron</p>
+
+        <div class="social-icon">
+          <a href="mukisaaaron@icloud.com" target="_blank">
+            <img src="icloud.png" alt="Gmail"><br>
+          </a><br>
+          <p>mukisaaaron@icloud.com</p>
+        </div>
+
+      </div>
+      <div class="social-icon">
+        <a href="https://instagram.com/yourprofile" target="_blank">
+          <img src="instagram.jpg" alt="Instagram">
+        </a>
+        <p>@aaronickson jovic</p>
+      </div>
+      <div class="social-icon">
+        <a target="_blank">
+          <img src="whatsapp.png" alt="WhatsApp">
+        </a>
+        <p><b>0709891518</b></p>
+      </div>
+      
+      <div class="social-icon">
+        <a href="kayondoaaron88@gmail.com" target="_blank">
+          <img src="gmail.png" alt="Gmail"><br>
+        </a><br>
+        <p>kayondoaaron88@gmail.com</p>
+      </div>
+      <div class="social-icon">
+        <a href="https://telegram.me/yourprofile" target="_blank">
+          <img src="telegram.png" alt="Telegram">
+        </a>
+        <p>@kayondo Aaron</p>
+      </div>
+      <div class="social-icon">
+        <a  target="_blank">
+          <img src="telephone.jpg" alt="Telephone">
+        </a>
+        <p><b>0709891518</b></p>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="text-center py-4 bg-dark text-white">
+    <p>&copy; 2024 kayondo Aaron</p>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
